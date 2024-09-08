@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 
 # Cargar el modelo entrenado
 with open('modelo_optimizado.pkl', 'rb') as file:
-    modelo = pickle.load('modelo_optimizado.pkl')
+    modelo = pickle.load('file')
 
 # Definir la interfaz de usuario en Streamlit
 st.title('Predicción de Precios de Laptops')
